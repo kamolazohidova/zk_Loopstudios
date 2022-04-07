@@ -60,7 +60,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding-top: 64px;
-    margin-bottom: 170px;
+    margin-bottom: 130px;
 }
     
 .site-header {
@@ -68,6 +68,10 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+}
+
+.site-logo {
+    display: flex;
 }
 
 .site-logo-img {
@@ -115,7 +119,7 @@ body {
     color: #fff;
     width: 650px;
     margin-top: 0;
-    margin-bottom: 186px;
+    margin-bottom: 146px;
     text-transform: uppercase;
     padding: 40px;
     border: 2px solid #fff;
@@ -147,7 +151,7 @@ body {
     height: 320px;
     background-color: #fff;
     color: #000;
-    padding: 96px;
+    padding: 96px 0 0 96px;
     margin-left: -170px;
 }
 
@@ -161,7 +165,6 @@ body {
     width: 445px;
     color: #000;
     text-transform: uppercase;
-    letter-spacing: 2px;
 }
 
 .leader-text {
@@ -174,7 +177,7 @@ body {
     line-height: 25px;
     letter-spacing: 2px;
     width: 445px;
-    color: #000;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 
@@ -235,6 +238,8 @@ body {
 .mask-list {
     display: flex;
     flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
 }
 
 .mask-item {
@@ -253,7 +258,7 @@ body {
 }
 
 .mask-item:active {
-    opacity: 0.6;
+    opacity: 0.25;
 }
 
 .mask-item:nth-child(4n) {
@@ -274,6 +279,8 @@ body {
     font-style: normal;
     font-weight: 300;
     font-size: 32px;
+    margin: 0;
+    padding: 0;
     line-height: 32px;
     text-transform: uppercase;
     color: #fff;
@@ -330,9 +337,24 @@ body {
     margin-bottom: 43px;
 }
 
+.site-footer-logo{
+    display: flex;
+}
+
+.site-footer-logo-img {
+    width: 144px;
+    height: 24px;
+    margin-right: auto;
+}
+
 .site-footer-img {
     width: 24px;
     height: 24px;
+}
+
+.twitter-img {
+    width: 24px;
+    height: 20px;
 }
 
 .footer-text {
@@ -343,4 +365,8 @@ body {
     line-height: 25px;
     color: #fff;
     opacity: 0.5;
+}
+
+.footer-sitenav-link {
+    display: flex;
 }
