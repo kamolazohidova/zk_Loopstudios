@@ -94,6 +94,9 @@ body {
 }
 
 .sitenav-link {
+    font-family: "Alata";
+    font-weight: 400;
+    font-size: 15px;
     text-decoration: none;
     color: #fff;
     font-weight: 400;
@@ -106,6 +109,7 @@ body {
 }
 
 .header-heading {
+    font-family: "Josefin Sans", sans-serif;
     font-weight: 300;
     font-size: 72px;
     color: #fff;
@@ -162,14 +166,15 @@ body {
 
 .leader-text {
     font-family: 'Alata', sans-serif;
-    width: 445px;
-    color: #000;
-    font-family: 'Alata';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
+    margin: 0;
+    padding: 0;
     line-height: 25px;
     letter-spacing: 2px;
+    width: 445px;
+    color: #000;
 }
 
 
@@ -191,14 +196,23 @@ body {
     line-height: 48px;
     text-transform: uppercase;
     color: #000;
+    margin: 0;
+    padding: 0;
 }
 
 .creations-link {
-    text-decoration: none;
-    color: #000;
+    font-family: 'Alata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
     padding: 13px 38px;
     border: 1px solid #000;
+    text-decoration: none;
     transition: all 0.8s ease;
+    color: #000;
 }
 
 .creations-link:hover {
@@ -229,7 +243,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    width: 256px;
+    width: 255px;
     height: 450px;
     margin-bottom: 30px;
 }
